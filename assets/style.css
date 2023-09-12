@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    font-size: 95.3%;
+}
+.linha1 img{
+    width: 80px;
+    padding-right: 3px;
+    background-color: white;
+}
+.linha1{
+    display: flex;
+    padding-left: 160px;
+}
+.linha1 .javascript,.java,.php,.python,.r,.c{
+    width: 160px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-color: white;
+}
+.colun0{
+    width: 160px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    background-color: white;
+}
+.linhaInfo .colunInfo{
+    width: 160px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-color: orange;
+    border-radius: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.colunInfo0{
+    width: 160px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.linhaInfo{
+    display: flex;
+}
+.linha2 .colun1{
+    width: 160px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DCE2FA;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.linha2{
+    display: flex;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr {
+    border-bottom: 2px solid orange;
+}
+
+table td, table th {
+    padding: 10px;
+    text-align: left;
+}
+
+.linha1 img {
+    width: 80px;
+    padding-right: 3px;
+    background-color: white;
+}
+
+body{
+    width: 68%;
+}
+h1{
+    text-align: center;
+    font-size: 21px;
+}
